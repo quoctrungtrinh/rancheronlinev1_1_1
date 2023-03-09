@@ -1,14 +1,14 @@
 apiVersion: elemental.cattle.io/v1beta1
 kind: MachineRegistration
 metadata:
-  name: ipc-211
+  name: vm-rancheronline
   namespace: fleet-default
 spec:
   config:
     cloud-config:
       users:
-        - name: "root"
-          passwd: "rjpAK1K7Qpc6AafX"
+        - name: "admin"
+          passwd: "admin"
     elemental:
       install:
         reboot: true
@@ -17,6 +17,7 @@ spec:
       registration:
         emulate-tpm: true
         emulated-tpm-seed: 1
+  machineName: vm-rancheronline
   machineInventoryLabels:
     location: 'nue_vo'
     manufacturer: "${System Information/Manufacturer}"
