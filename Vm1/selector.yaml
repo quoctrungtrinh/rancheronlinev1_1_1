@@ -10,4 +10,4 @@ spec:
         matchExpressions:
           - key: location
             operator: In
-            values: ["nue_vo"]
+            values: ["nue_vo_apsys4"]

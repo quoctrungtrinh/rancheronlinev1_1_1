@@ -19,7 +19,7 @@ spec:
         emulated-tpm-seed: 1
   machineName: vm-rancheronline
   machineInventoryLabels:
-    location: "nue_vo"
+    location: "nue_vo_apsys4"
     manufacturer: "${System Information/Manufacturer}"
     productName: "${System Information/Product Name}"
     serialNumber: "${System Information/Serial Number}"
